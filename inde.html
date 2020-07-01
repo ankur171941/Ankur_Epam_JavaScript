@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+    <title>
+        Epam Login Form Task
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+       .borders
+{
+    border-width: 3px! important;
+}
+.color
+{
+    background: #0fabbc;
+}
+.signin
+{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.icon{
+    padding-top: 5px;
+    font-size: 25px;
+}
+.btn_color
+{
+    background-color: #0fabbc;
+    color:white;
+}
+
+.btn_fb
+{
+    background-color: #0f4c75;
+}
+.btn_epam{
+    background-color: #8cba51;
+}
+
+    </style>
+</head>
+<script src="indec.js"></script>
+<body>
+<div class="container pt-2 mt-5 mb-5 border">
+  <div class ="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 mt-5 mb-5 pt-5">
+        <div class=" d-flex justify-content-between color bg-info ">
+            <div class="p-2 text-light pl-4"><i class="fas fa-graduation-cap icon"></i></div>
+            <div class="p-2 text-light font-weight-bold signin">Sign In</div>
+            <div class="p-2 text-light pr-4"><i class="fas fa-times icon"></i></div>
+          </div>
+
+
+          <div class="container pl-5 pr-5">
+              <form>
+                  <div class="input-group mt-5">
+                    <input type="text" class="form-control rounded-0" placeholder="mail@example.com" id="email" name="email">
+                    <div class="input-group-append">
+                      <span class="input-group-text rounded-0">
+                          <i class="fas fa-envelope"></i>
+                      </span>
+                    </div>
+                  </div>
+    
+                  <div class="input-group mt-3">
+                      <input type="text" class="form-control rounded-0" placeholder="password" id="password" name="password">
+                      <div class="input-group-append">
+                        <span class="input-group-text rounded-0">
+                            <i class="fas fa-unlock-alt"></i>
+                        </span>
+                      </div>
+                    </div>
+    
+    
+                </form>
+          </div>
+
+          <div class="container pl-5 pr-5 mt-5">
+            <button type="button" class="btn btn-primary btn-block font-weight-bold" onclick="verify()">SIGN IN</button> 
+          </div>
+          
+
+          <div class="container pl-5 pr-5 mt-2">
+            <div class="d-flex justify-content-between">
+                <div>Forget your password?</div>
+                <div>Register?</div>
+            </div> 
+          </div>
+
+          <div class="row d-flex justify-content-around pl-5 pr-5 mt-4">
+            <div class="col-sm-5"><hr></div>
+            <div class="col-sm-2">OR</div>
+            <div class="col-sm-5"><hr></div>
+          </div>
+
+          <div class="container pl-5 pr-5 mt-5">
+              <button type="button" class="btn btn_fb btn-block font-weight-bold"><i class="fab fa-facebook-f text-light"></i>
+              </button> 
+          </div>
+
+          <div class="container pl-5 pr-5 mt-2">
+              <button type="button" class="btn btn-danger btn-block font-weight-bold">
+                  <i class="fab fa-goodreads-g text-light"></i>
+              </button> 
+          </div>
+
+          <div class="container pl-5 pr-5 mt-5">
+              <button type="button" class="d-flex justify-content-center btn btn_epam btn-block">
+                  <i class="fas fa-angle-left text-light "></i>
+                  <div class="text-light">EPAM LOGIN</div>
+                  <i class="fas fa-angle-right text-light"></i>
+              </button> 
+          </div>
+
+    </div>
+    <div class="col-sm-3"></div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+   
